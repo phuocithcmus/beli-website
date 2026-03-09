@@ -1,4 +1,3 @@
-import { HeroSection } from "@/components/ui/HeroSection";
 import { ProductGrid } from "@/components/ui/ProductGrid";
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
       />
       
       <div className="relative z-10 w-full overflow-x-hidden">
-        <HeroSection />
         <ProductGrid />
       </div>
       

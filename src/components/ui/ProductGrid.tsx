@@ -35,19 +35,13 @@ export function ProductGrid() {
   }
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 lg:py-24" id="collection">
-      <div className="mb-16">
-        <div className="relative inline-block left-1/2 -translate-x-1/2 mb-8 transform hover:scale-105 transition-transform cursor-pointer">
-          <h2 className="text-4xl font-black tracking-tight text-white mb-2 bg-purple-600 px-8 py-3 rounded-full border-4 border-slate-900 shadow-[6px_6px_0px_#1e293b] sm:text-5xl text-center z-10 relative">
-            Toy Collection 🚀
-          </h2>
-          {/* Decorative accents */}
-          <div className="absolute top-0 right-0 -mt-4 -mr-4 text-3xl">✨</div>
-          <div className="absolute bottom-0 left-0 -mb-4 -ml-4 text-3xl z-[-1]">⭐</div>
-        </div>
-        
-        <p className="text-xl font-bold text-slate-700 text-center max-w-2xl mx-auto mb-10">
-          Find your new favorite playtime companion!
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 lg:py-12" id="collection">
+      <div className="mb-12">
+        <h2 className="text-3xl font-black text-slate-900 text-center mb-4 sm:text-4xl">
+          The <span className="text-blue-600">Ultimate</span> Toy Box! 🎁
+        </h2>
+        <p className="text-lg font-bold text-slate-500 text-center max-w-2xl mx-auto mb-10">
+          Find your new favorite playtime companion! Discover magical puzzles, super-fast cars, and more.
         </p>
         <Filters />
       </div>
